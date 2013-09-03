@@ -11,7 +11,7 @@ function insertCountries() {
     code: 'AU'
   }];
 
-  for (var i = 0, length = countries.length; i < length; i++) {
+  for (var i = 0, length = countries.length; i &lt; length; i++) {
     Countries.insert(countries[i]);
   }
 }
@@ -23,7 +23,7 @@ function insertPorts() {
     countryId: Countries.findOne({ code: 'AU' }, { limit: 1 })._id
   }];
 
-  for (var i = 0, length = ports.length; i < length; i++) {
+  for (var i = 0, length = ports.length; i &lt; length; i++) {
     Ports.insert(ports[i]);
   }
 }
