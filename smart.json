@@ -1,5 +1,5 @@
 {
-  "name": "fixter-loader",
+  "name": "fixture-loader",
   "description": "Loads fixtures with dependencies",
   "homepage": "https://github.com/deepwell/meteor-fixture-loader",
   "author": "Mark Deepwell <mark@stage3systems.com>",
